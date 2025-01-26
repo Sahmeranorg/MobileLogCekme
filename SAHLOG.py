@@ -81,8 +81,8 @@ root.geometry("500x400")
 root.resizable(False, False)
 root.configure(bg="#2b2b2b")
 
-lunex_label = ttk.Label(root, text="SAHMERAN", foreground="red", background="#2b2b2b", font=("Courier", 24, "bold"))
-lunex_label.pack(pady=10)
+sahmeran_label = ttk.Label(root, text="SAHMERAN", foreground="red", background="#2b2b2b", font=("Courier", 24, "bold"))
+sahmeran_label.pack(pady=10)
 
 url_label = ttk.Label(root, text="URL (Birden fazla URL'yi virgülle ayırın):", foreground="yellow", background="#2b2b2b", font=("Helvetica", 10, "bold"))
 url_label.pack()
